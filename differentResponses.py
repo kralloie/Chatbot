@@ -31,12 +31,11 @@ def statusResponses():
 
 def godResponses():
     response = ['Nada',
-                'No existe, no es nada',
                 'Probablemente las matematicas',
-                'Una creacion de la sociedas antigua para controlar a los estupidos pero hoy en dia sigue controlandolos, no se como, la verdad',
+                'No lo se',
                 'Un mito',
-                'Chamuyos de la iglesia que tambien es un chamuyo',
-                'El peor concepto que le sucedio a la humanidad'][random.randrange(7)]
+                'Algo que inventaron las religiones',
+                'No tengo idea, mucha gente odia ese concepto'][random.randrange(6)]
     return response
     
 def gladToHearResponses():
